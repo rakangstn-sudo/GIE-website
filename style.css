@@ -38,31 +38,32 @@ header {
 }
 
 .logo img {
-  height: 55px;
+  height: 5px;
 }
 
 .logo h1 {
-  font-size: 20px;
-  letter-spacing: 1px;
+  font-size: 26px;
+  letter-spacing: 1.2px;
   color: #f5c542;
 }
 
 /* NAVIGATION */
 nav a {
   color: #f5c542;
-  margin-left: 28px;
+  margin-left: 32px;
   text-decoration: none;
-  font-weight: 700;
-  font-size: 18px;      /* ⬅️ INI YANG MEMPERBESAR */
-  letter-spacing: 0.5px;
+  font-weight: 800;      
+  font-size: 22px;       
+  letter-spacing: 1px;
   position: relative;
   transition: color 0.3s, transform 0.3s;
 }
 
 nav a:hover {
   color: #ffffff;
-  transform: scale(1.08);   /* efek zoom dikit */
+  transform: scale(1.12);
 }
+
 
 nav a::after {
   content: "";
@@ -170,4 +171,5 @@ footer {
   font-size: 14px;
   margin-top: 80px;
 }
+
 
