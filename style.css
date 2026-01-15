@@ -50,11 +50,18 @@ header {
 /* NAVIGATION */
 nav a {
   color: #f5c542;
-  margin-left: 24px;
+  margin-left: 28px;
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 700;
+  font-size: 18px;      /* ⬅️ INI YANG MEMPERBESAR */
+  letter-spacing: 0.5px;
   position: relative;
-  transition: color 0.3s;
+  transition: color 0.3s, transform 0.3s;
+}
+
+nav a:hover {
+  color: #ffffff;
+  transform: scale(1.08);   /* efek zoom dikit */
 }
 
 nav a::after {
@@ -163,3 +170,4 @@ footer {
   font-size: 14px;
   margin-top: 80px;
 }
+
